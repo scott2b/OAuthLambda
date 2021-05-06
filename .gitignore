@@ -1,0 +1,30 @@
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+__pycache__
+
+# Serverless directories
+.serverless
+
+# envs
+.env
+.env.*
+.envrc
+.venv/
+
+# node. I have no idea what I am doing here
+node_modules/

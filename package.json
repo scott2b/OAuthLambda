@@ -1,0 +1,24 @@
+{
+  "name": "OAuthLambda",
+  "version": "1.0.0",
+  "description": "Basic AWS Lambda project demonstrating use of OAuth2 for API auth",
+  "main": "index.js",
+  "dependencies": {
+    "serverless-python-requirements": "^5.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scott2b/OAuthLambda.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scott2b/OAuthLambda/issues"
+  },
+  "homepage": "https://github.com/scott2b/OAuthLambda#readme"
+}
