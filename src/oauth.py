@@ -87,6 +87,7 @@ def refresh_token(token, grant_type):
     response = OAUTH_TOKENS_TABLE.delete_item(
         Key={ 'token': token_obj['access_token'] }
     )
+    # TODO: handle possible collisions
     _access_token = create_random_key(OAUTH2_ACCESS_TOKEN_BYTES)
     now = datetime.datetime.utcnow()
     access_token_expires_at = now + datetime.timedelta(minutes=5)
